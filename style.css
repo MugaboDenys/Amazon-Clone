@@ -10,7 +10,6 @@
 img {display: block;}
 
 body{
-    background-color: rgb(214, 214, 214);
     width: 100%;
     font-family: 'Roboto', sans-serif;
 }
@@ -88,7 +87,11 @@ body{
     text-decoration: none;
     color: rgb(5, 139, 183);
 }
-
+.card1-link a:hover{
+    font-size: smaller;
+    text-decoration-line: underline;
+    color: rgb(196, 151, 6);
+}
 .card1-item {
     background-color: rgb(7, 174, 199);
 }
@@ -184,10 +187,10 @@ body{
     text-decoration: none;
     color: rgb(5, 139, 183);
 }
-.sect2Cont {
-    margin-top: 1rem;
-    margin-bottom: 0.7rem;
-    border: 1px solid darkgray;
+.card14-link a:hover{
+    font-size: smaller;
+    text-decoration-line: underline;
+    color: rgb(196, 151, 6);
 }
 .special {
     width: 100%;
@@ -207,4 +210,99 @@ body{
 }
 .spHeader{
     padding: 20px;
+}
+.sect2{
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sect2Cont {
+    padding: 20px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}
+.sect2Cont h5{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(52, 51, 51);
+    padding-bottom: 30px;
+}
+.sect2Cont i{
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.back {
+    text-align: center;
+    font-size: .9rem;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: rgb(48, 67, 92);
+    box-shadow: 30px;
+}
+.back:hover {
+    background: rgb(69, 72, 76);
+}
+.sect3 h5{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.sect3 li{
+    margin-bottom: 10px;
+}
+.sect3 a{
+    text-decoration: none;
+}
+.sect3 a:hover{
+    text-decoration-line: underline;
+}
+.sect3cont {
+    background: rgb(28, 44, 57);
+    border-bottom: 1px solid rgb(58, 70, 80);
+}
+.sect3Items {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.item{
+    padding-top: 2rem;
+}
+.item h5{
+    font-size: 1rem;
+    color: white;
+}
+.item a{
+    color: #eaeded;
+    font-size: .8rem;
+}
+.sect3footItems{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.sect3foot {
+    padding: 20px;
+    background: rgb(28, 44, 57);
+}
+.sect3img img{
+    padding-top: 10px;
+    width: 4rem;
+    height: 2rem;
+}
+.sect3opt {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.sect3opt a{
+    font-size: 13px;
+    padding: 6px;
+    text-decoration-line: none;
+    color: #eaeded;
+    border: 1px solid #7f7f7f;
+    border-radius: 3px;
 }
