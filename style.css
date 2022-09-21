@@ -14,7 +14,92 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+    color: #eaeded;
+    background: #101624;
+    width: auto;
+}
+.nav-brand img{
+    width: 5rem;
+    height: auto;
+    
+}
+.nav-items{
+    display: flex;
+    gap: 10px;
+    width: auto;
+}
+.map{
+    display: flex;
+    align-items: flex-end;
+    margin-right: auto;
+}
+.search {
+    display: flex;
+    border-radius: 5px;
+    height: 2.5em;
+    margin-right: auto;
+}
+.drop{
+    background: #e6e3e3;
+    color: #101624;
+    padding: 8px;
+    border-radius: 5px 0px 0px 5px;
+}
+.searchbtn {
+    background: #f5d159;
+    color: #101624;
+    padding: 8px;
+    border-radius: 0px 5px 5px 0px;
+}
+.input {
+    border-radius: 0px;
+    width: 60em;
+}
+.nav-opt{
+    display: inherit;
+    gap: 20px;
+}
+.lang{
+    display: flex;
+    align-items: flex-end;
+}
+.lang img {
+    width: 1.3rem;
+    height: auto;
+    display: inline;
+    padding-bottom: 3px;
+}
+.text1{
+    font-size: 1em;
+    font-weight: 400;
+    color: #eaeded;
+}
+.text2 {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+.menubar{
+    background: #172a38;
+    display: flex;
+    gap: 15px;
+    height: 2em;
+}
+.menubar a{
+    text-decoration: none;
+    padding: 5px;
+    color: #e6e3e3;
+    font-size: 1em;
+    font-weight: 400;
+}
+.menubar a:hover{
+    border: 1px solid #e6e3e3;
+    border-radius: 3px;
+}
 .sect1 {
     width: 100%;
     height: auto;
@@ -38,7 +123,7 @@ body{
 
     width: 100%;
     padding-top: 15rem;
-    background: linear-gradient(to bottom, transparent, #eaeded 30%);
+    background: linear-gradient(to bottom, transparent, #eaeded 20%);
 }
 .cont1 {
     width: 100%
@@ -65,7 +150,7 @@ body{
 }
 .cards > * {
     background-color: white;
-    min-width: 300px;
+    min-width: 200px;
     height: auto;
     padding: 2%;
 }
@@ -160,16 +245,22 @@ body{
 .btn {
     border-radius: 12px;
     background-color: rgb(255, 214, 7);
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 6em;
+    padding-right: 6em;
     margin-bottom: 40px;
     box-shadow: 0px 1px 1px;
 }
 
 .cont-b {
-   padding-top: 2rem; 
+   padding-top: 2em; 
+}
+.cont-b img{
+    max-width: 90%;
+    height: auto;
+    position: relative;
+    object-fit: cover;
 }
 
 .card14 img{
@@ -196,6 +287,7 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
     margin-top: 1rem;
     margin-bottom: 1rem;
     gap: 10px;
@@ -300,9 +392,14 @@ body{
 
 .sect3opt a{
     font-size: 13px;
-    padding: 6px;
+    padding: 10px;
     text-decoration-line: none;
     color: #eaeded;
     border: 1px solid #7f7f7f;
     border-radius: 3px;
+}
+.sect3btn img{
+    width: 1rem;
+    height: auto;
+    display: inline;
 }
